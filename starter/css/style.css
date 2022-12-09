@@ -7,6 +7,15 @@ h1, h2, h3 , h4, h5, h6 {
   }
   
   /* Navigation bar */
+
+  /* portfolio cards */
+
+  .cardContainer {
+    margin-bottom: 15px;
+  }
+  .card {
+    margin: 0 auto;
+  }
   
   /* General */
   .customNav {
