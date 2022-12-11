@@ -18,15 +18,38 @@ h1, h2, h3 , h4, h5, h6 {
   .cardContainer {
     margin-bottom: 15px;
   }
+
   .card {
     margin: 0 auto;
   }
   
 /* About Me */
+.media{
+    display: flex;
+}
 .AboutMeTitle {
     text-align: center;
 }
 
+.rounded-circle{
+    padding: 20px;
+    right: 50px;
+    position:relative;
+} 
+
+.media-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.mt-0{
+    font-family: chalkduster;
+    font-size: 40px;
+    text-align: left;
+}
+.name{
+    font-weight: bold;
+}
 
 
   /* General */
