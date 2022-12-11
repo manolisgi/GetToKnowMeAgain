@@ -23,7 +23,7 @@ h1, h2, h3 , h4, h5, h6 {
     margin: 0 auto;
   }
   
-/* About Me */
+/* Introducing and photo */
 .media{
     display: flex;
 }
@@ -51,6 +51,18 @@ h1, h2, h3 , h4, h5, h6 {
     font-weight: bold;
 }
 
+/* About Me */
+.card-title{
+    font-weight: bold;
+}
+.always-delivering{
+    padding-left: 50px;
+}
+
+.progress{
+    height: 40px;
+    padding: 5px;
+}
 
   /* General */
   .customNav {
