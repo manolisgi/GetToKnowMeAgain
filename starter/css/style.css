@@ -9,9 +9,35 @@ h1, h2, h3 , h4, h5, h6 {
 .title {
     font-size: 40px;
     font-family: chalkduster;
+    text-align: center;
 }
-  
+
+.my-element::before {
+   
+    background: transparent;
+    padding: 0.25rem;
+}
+
+.my-element {
+    background-image: linear-gradient(
+        to right,
+        pink,
+        white 35%,
+        white 65%,
+        pink
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: 0 center;
+}
+
+ 
   /* Navigation bar */
+  .navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+  }
 
   /* portfolio cards */
 
