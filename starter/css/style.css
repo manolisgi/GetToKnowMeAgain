@@ -6,17 +6,6 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Jura', sans-serif;
   }
 
-  #left, #right  {
-    background: #a5ebff; !important
-    position: fixed; !important
-    }
-
-  #left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
 
 .title {
     font-size: 40px;
@@ -71,8 +60,9 @@ h1, h2, h3 , h4, h5, h6 {
 
 .rounded-circle{
     padding: 20px;
-    right: 50px;
     position:relative;
+    width: 100%;
+    max-width: 400px;
 } 
 
 .media-body{
